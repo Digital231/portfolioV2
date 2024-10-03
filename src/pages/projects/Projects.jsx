@@ -98,7 +98,11 @@ function Projects() {
 
           {/* Buttons */}
           <div className="project-buttons">
-            <a href="https://mern-chat-7t2s.onrender.com" className="button-85">
+            <a
+              target="_blank"
+              href="https://mern-chat-7t2s.onrender.com"
+              className="button-85"
+            >
               Live App
             </a>
             <a
