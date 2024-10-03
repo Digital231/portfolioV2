@@ -33,6 +33,7 @@ function Projects() {
               Live App
             </a>
             <a
+              target="_blank"
               href="https://github.com/Digital231/mern-blog"
               className="button-64"
             >
@@ -63,6 +64,7 @@ function Projects() {
               Live App
             </a>
             <a
+              target="_blank"
               href="https://github.com/Digital231/lastDance"
               className="button-64"
             >
@@ -106,6 +108,7 @@ function Projects() {
               Live App
             </a>
             <a
+              target="_blank"
               href="https://github.com/Digital231/mern-chat"
               className="button-64"
             >
