@@ -146,3 +146,68 @@
   color: white;
   font-size: 2rem;
 }
+
+/* Custom modal container */
+.custom-modal .modal-dialog {
+  max-width: 500px;
+  background-color: #222;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  border-radius: 30px;
+}
+
+/* Custom modal header */
+.custom-modal-header {
+  background-color: #444;
+  border-bottom: none;
+  padding: 20px;
+  border-radius: 10px 10px 0 0;
+  color: #fff;
+}
+
+/* Custom modal title */
+.custom-modal-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #ffda79;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Custom modal body */
+.custom-modal-body {
+  padding: 20px;
+  color: #fff;
+  font-size: 1.2rem;
+  background-color: #333;
+  text-align: center;
+}
+
+/* Custom modal footer */
+.custom-modal-footer {
+  background-color: #444;
+  border-top: none;
+  border-radius: 0 0 10px 10px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Custom modal button */
+.custom-modal-button {
+  background-color: #ffda79;
+  border: none;
+  color: #333;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 50px;
+  transition: background-color 0.3s;
+}
+
+.custom-modal-button:hover {
+  background-color: #ffd54f;
+}

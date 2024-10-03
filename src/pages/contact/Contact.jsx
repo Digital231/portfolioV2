@@ -151,13 +151,23 @@ function Contact() {
           <p className="mt-3">© {new Date().getFullYear()} Šarūnas Cironka</p>
         </div>
       </footer>
-      <Modal show={showModal} onHide={() => setShowModal(false)} centered>
-        <Modal.Header closeButton>
-          <Modal.Title>Message Status</Modal.Title>
+      <Modal
+        show={showModal}
+        onHide={() => setShowModal(false)}
+        centered
+        dialogClassName="custom-modal"
+      >
+        <Modal.Header closeButton className="custom-modal-header">
+          <Modal.Title className="custom-modal-title">
+            Message Status
+          </Modal.Title>
         </Modal.Header>
-        <Modal.Body>{modalMessage}</Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={() => setShowModal(false)}>
+        <Modal.Body className="custom-modal-body">{modalMessage}</Modal.Body>
+        <Modal.Footer className="custom-modal-footer">
+          <Button
+            className="custom-modal-button"
+            onClick={() => setShowModal(false)}
+          >
             Close
           </Button>
         </Modal.Footer>
