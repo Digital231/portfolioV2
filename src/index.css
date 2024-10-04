@@ -63,7 +63,7 @@ html {
 /* CSS for button and animation */
 .button-49,
 .button-49:after {
-  width: 150px;
+  width: 200px;
   height: 76px;
   line-height: 78px;
   font-size: 20px;
@@ -158,19 +158,11 @@ html {
   }
 }
 
-@media (min-width: 768px) {
-  .button-49,
-  .button-49:after {
-    width: 200px;
-    height: 86px;
-    line-height: 88px;
-  }
-}
 #home,
 #about,
 #skills,
 #projects,
 #contact {
   min-height: 100vh;
-  padding-top: 70px; /* Adjust based on your navbar height */
+  padding-top: 70px;
 }
