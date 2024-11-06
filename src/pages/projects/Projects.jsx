@@ -22,13 +22,13 @@ function Projects() {
               <h3 className="project-title">Blog App</h3>
               <p className="project-text">
                 Full stack blog app built with MERN stack. Includes user
-                authentication, profile page, and admin dashboard. Hosted on
-                Render free tier.
+                authentication, profile page, and admin dashboard. Hosted on own
+                server.
               </p>
               <div className="project-buttons">
                 <a
                   target="_blank"
-                  href="https://www.cironka.lt"
+                  href="https://sarunas-blog.netlify.app/"
                   className="button-85"
                 >
                   Live App
@@ -62,7 +62,7 @@ function Projects() {
               <p className="project-text">
                 Full stack chat app built with MERN stack and Socket.io.
                 Includes user authentication, profile page, and chat
-                functionality. Hosted on Render free tier.
+                functionality. Hosted on Render takes time to "wake" server up.
               </p>
               <div className="project-buttons">
                 <a
@@ -100,7 +100,7 @@ function Projects() {
               <h3 className="project-title">Chat App</h3>
               <p className="project-text">
                 Similar chat app to previous project. MERN stack with socket.io.
-                Hosted on Render free tier.
+                Hosted on Render takes time to "wake" server up.
               </p>
               <div className="project-buttons">
                 <a
