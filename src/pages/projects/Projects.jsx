@@ -50,7 +50,7 @@ function Projects() {
           <div className="col-12 col-md-6 order-md-2">
             <div className="project-image-container">
               <img
-                src="/project2.png"
+                src="/project4.png"
                 alt="Project Screenshot"
                 className="project-image img-fluid"
               />
@@ -58,23 +58,22 @@ function Projects() {
           </div>
           <div className="col-12 col-md-6 order-md-1">
             <div className="project-description">
-              <h3 className="project-title">Chat app</h3>
+              <h3 className="project-title">AI-Powered Moderation</h3>
               <p className="project-text">
-                Full stack chat app built with MERN stack and Socket.io.
-                Includes user authentication, profile page, and chat
-                functionality. Hosted on Render takes time to "wake" server up.
+                Automatically validate content with precision and speed. Hosted
+                on GCP as docker container.
               </p>
               <div className="project-buttons">
                 <a
                   target="_blank"
-                  href="https://lastdance.onrender.com"
+                  href="https://frontend-279549734697.europe-west1.run.app/"
                   className="button-85"
                 >
                   Live App
                 </a>
                 <a
                   target="_blank"
-                  href="https://github.com/Digital231/lastDance"
+                  href="https://frontend-279549734697.europe-west1.run.app/about"
                   className="button-64"
                 >
                   Learn More
@@ -127,7 +126,7 @@ function Projects() {
           <div className="col-12 col-md-6 order-md-2">
             <div className="project-image-container">
               <img
-                src="/project4.png"
+                src="/project2.png"
                 alt="Project Screenshot"
                 className="project-image img-fluid"
               />
@@ -135,22 +134,23 @@ function Projects() {
           </div>
           <div className="col-12 col-md-6 order-md-1">
             <div className="project-description">
-              <h3 className="project-title">Defender JS game</h3>
+              <h3 className="project-title">Chat app</h3>
               <p className="project-text">
-                Project built with vanilla JS, simple game I have built to
-                enhance my JavaScript skills.
+                Full stack chat app built with MERN stack and Socket.io.
+                Includes user authentication, profile page, and chat
+                functionality. Hosted on Render takes time to "wake" server up.
               </p>
               <div className="project-buttons">
                 <a
                   target="_blank"
-                  href="https://digital231.github.io/defenderGame/"
+                  href="https://lastdance.onrender.com"
                   className="button-85"
                 >
                   Live App
                 </a>
                 <a
                   target="_blank"
-                  href="https://github.com/Digital231/defenderGame"
+                  href="https://github.com/Digital231/lastDance"
                   className="button-64"
                 >
                   Learn More
